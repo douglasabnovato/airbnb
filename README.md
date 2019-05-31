@@ -20,16 +20,16 @@
 - Um clone do Airbnb para a demonstração do poder da tecnologia React.
 
 - Parte 1: Iniciando com AdonisJS: Autenticação JWT e API REST;
-1. AdonisJS
-a. npm i -g @adonisjs/cli
-b. adonis new airbnb-server --api-only
-c. adonis serve --dev
-2. Criando API REST com AdonisJS
-d. PostgreSQL
-e. npm install pg
-f. arquivo .env
-g. adonis migration:run
-3. Autenticação com JWT
+1. AdonisJS<br/> 
+a. npm i -g @adonisjs/cli<br/> 
+b. adonis new airbnb-server --api-only<br/> 
+c. adonis serve --dev<br/> 
+2. Criando API REST com AdonisJS<br/> 
+d. PostgreSQL<br/> 
+e. npm install pg<br/> 
+f. arquivo .env<br/> 
+g. adonis migration:run<br/> 
+3. Autenticação com JWT<br/> 
 
 - Parte 2: Criando CRUD e relações em API REST no AdonisJS;
 - Parte 3: Upload de imagens e geolocalização no AdonisJS;
