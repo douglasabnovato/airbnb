@@ -1,6 +1,6 @@
 # Airbnb
 
-## Atualização: 16 de outubro de 2019 - 00:15
+## Atualização: 16 de outubro de 2019 - 11:50
 ## Criação: 31 de maio de 2019
 ## Prática : @douglasabnovato
 
@@ -17,7 +17,7 @@
 ![Rocketseat](/images/logo-rocketseat.png)
 
 #### Projeto em `React`
-- Um clone do Airbnb para a demonstração do poder da tecnologia React.
+- Um Clone AirBnB com AdonisJS, React Native e ReactJS.
 
 - Parte 1: Iniciando com AdonisJS: Autenticação JWT e API REST
 1. AdonisJS<br/> 
@@ -30,8 +30,12 @@ e. npm install pg<br/>
 f. arquivo .env<br/> 
 g. adonis migration:run<br/> 
 3. Autenticação com JWT<br/> 
-h. controller de usuários : adonis make:controller User --type http
-i. criado arquivo app/Controllers/Http/UserController.js
+h. controller de usuários : adonis make:controller User --type http<br/> 
+i. criado arquivo app/Controllers/Http/UserController.js<br/> 
+j. configurado routes
+k. testar : insomnia : cliente para testar API’s REST : erro<br/>
+:. De `Rocketseat BLOG - Airbnb`.<br/> 
+Por Diego Fernandes : https://blog.rocketseat.com.br/adonis-auth-jwt-api-rest/
 
 - Parte 2: Criando CRUD e relações em API REST no AdonisJS;
 - Parte 3: Upload de imagens e geolocalização no AdonisJS;
@@ -43,6 +47,3 @@ i. criado arquivo app/Controllers/Http/UserController.js
 - Parte 9: Instalando o Mapbox e listando os imóveis no ReactJS;
 - Parte 10: Utilizando o ModalRoute e fazendo upload de imagens;
 - Parte 11: Exibindo informações do imóvel com ModalRoute;
-
-:. De `Rocketseat BLOG - Airbnb`.<br/> 
-Por Diego Fernandes : https://blog.rocketseat.com.br/adonis-auth-jwt-api-rest/
