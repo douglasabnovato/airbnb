@@ -1,6 +1,6 @@
 # Airbnb
 
-## Atualização: 31 de maio de 2019 - 18:24
+## Atualização: 16 de outubro de 2019 - 00:15
 ## Criação: 31 de maio de 2019
 ## Prática : @douglasabnovato
 
@@ -16,10 +16,10 @@
 ![Nodejs](/images/nodejs.png)
 ![Rocketseat](/images/logo-rocketseat.png)
 
-#### Projet em `React`
+#### Projeto em `React`
 - Um clone do Airbnb para a demonstração do poder da tecnologia React.
 
-- Parte 1: Iniciando com AdonisJS: Autenticação JWT e API REST;
+- Parte 1: Iniciando com AdonisJS: Autenticação JWT e API REST
 1. AdonisJS<br/> 
 a. npm i -g @adonisjs/cli<br/> 
 b. adonis new airbnb-server --api-only<br/> 
@@ -30,6 +30,8 @@ e. npm install pg<br/>
 f. arquivo .env<br/> 
 g. adonis migration:run<br/> 
 3. Autenticação com JWT<br/> 
+h. controller de usuários : adonis make:controller User --type http
+i. criado arquivo app/Controllers/Http/UserController.js
 
 - Parte 2: Criando CRUD e relações em API REST no AdonisJS;
 - Parte 3: Upload de imagens e geolocalização no AdonisJS;
