@@ -34,7 +34,7 @@ g. adonis migration:run<br/>
 3. Autenticação com JWT<br/> 
 h. controller de usuários : adonis make:controller User --type http<br/> 
 i. criado arquivo app/Controllers/Http/UserController.js<br/> 
-j. configurado routes
+j. configurado routes<br/>
 k. testar : insomnia : cliente para testar API’s REST : erro<br/>
 
 
