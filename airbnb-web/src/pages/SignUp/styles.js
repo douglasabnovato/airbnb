@@ -27,14 +27,14 @@ export const Form = styled.form`
     text-align: center;
   }
   input {
-    flex: 1;
-    height: 46px;
-    margin-bottom: 15px;
-    padding: 0 20px;
     color: #777;
+    margin-bottom: 15px;
+    padding: 15px 20px;
     font-size: 15px;
-    width: 100%;
+    height: 46px;
     border: 1px solid #ddd;
+    width: 100%;
+    flex: 1;    
     &::placeholder {
       color: #999;
     }
