@@ -30,7 +30,7 @@ export const Form = styled.form`
     flex: 1;
     height: 46px;
     margin-bottom: 15px;
-    padding: 0 20px;
+    padding: 15px 20px;
     color: #777;
     font-size: 15px;
     width: 100%;

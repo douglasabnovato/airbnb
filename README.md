@@ -22,8 +22,11 @@ a. Endereço publicado [link para essa aplicação](https://git-scm.com)
 ![Nodejs](/images/nodejs.png)
 ![Rocketseat](/images/logo-rocketseat.png)
 
-## Terminado o projeto `Clone AirBnB com AdonisJS, React Native e ReactJS`
+## Terminado a primeira parte do projeto `Clone AirBnB com AdonisJS, React Native e ReactJS`
+- Tela de Login
 ![AirBnB - Clone](/images/tela-1.jpg)
+- Tela de Cadastro
+![AirBnB - Clone](/images/tela-2.jpg)
 >@douglasabnovato
 
 #### Projeto em `React`
