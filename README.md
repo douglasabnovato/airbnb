@@ -1,9 +1,9 @@
 ## Airbnb
 
 ### Criação: 31 de maio de 2019
-### Atualização: 16 de outubro de 2019 - 11:50
-### Terminado: Sim
-### Publicado: https://douglasabnovato.github.io/venderimovel
+### Atualização: 23 de janeiro de 2020 - 12:46
+### Terminado: Não
+### Publicado: https://douglasabnovato.github.io
 ### Prática : @douglasabnovato
 
 ## Desafio do projeto `Clone AirBnB com AdonisJS, React Native e ReactJS`
@@ -46,6 +46,9 @@ src/
  |--- index.js  # Ponto de entrada para execução do nosso App
  |--- routes.js # Arquivo contendo as principais rotas do App
  ````
+ e. Serviços no projeto
+ 1. Um serviço para a autenticação do usuários, o auth.js
+ 2. Outro para consumir os dados da nossa API feita com o AdonisJS, o api.js
 
 - Parte 1: Iniciando com AdonisJS: Autenticação JWT e API REST<br/>
 :. De `Rocketseat BLOG - Airbnb`.<br/> 
