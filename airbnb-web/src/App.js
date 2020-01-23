@@ -3,9 +3,7 @@ import Routes from "./routes";
 
 function App() {
     return (
-        <div>
-            @douglasabnovato
-        </div>
+        <Routes />
     );
 }
 

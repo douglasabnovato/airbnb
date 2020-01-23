@@ -47,8 +47,13 @@ src/
  |--- routes.js # Arquivo contendo as principais rotas do App
  ````
  e. Serviços no projeto
- 1. Um serviço para a autenticação do usuários, o auth.js
- 2. Outro para consumir os dados da nossa API feita com o AdonisJS, o api.js
+ 1. `services/auth.js` : Um para a autenticação do usuários 
+ 2. `services/api.js` : Outro para consumir os dados da nossa API feita com o AdonisJS
+ f. Rotas : `routes.js`
+1. SignIn: Entrar com as credenciais para acessar o sistema.
+2. SignUp: Criar uma nova conta para acessar o sistema.
+3. App: Área que contém as properties e permite adicionar novas.
+4. NotFound: Para rotas desconhecidas.
 
 - Parte 1: Iniciando com AdonisJS: Autenticação JWT e API REST<br/>
 :. De `Rocketseat BLOG - Airbnb`.<br/> 
