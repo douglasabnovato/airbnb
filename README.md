@@ -29,6 +29,24 @@ a. Endereço publicado [link para essa aplicação](https://git-scm.com)
 #### Projeto em `React`
 - Um Clone AirBnB com AdonisJS, React Native e ReactJS.
 
+- Parte Introdução : reactjs-autenticacao<br/>
+:. De `Rocketseat BLOG - Airbnb`.<br/> 
+a. instalar o CLI<br/> 
+b. criar o projeto `airbnb-web`<br/> 
+c. adicionar dependencias `Axios` `PropTypes` `ReactRouter` `StyledComponents` `Font Awesome`<br/>
+d. estrutura de pastas
+````
+src/
+ |--- assets/   # Aqui ficará as imagens
+ |--- configs/  # Variáveis de configurações
+ |--- pages/    # As nossas páginas
+ |--- services/ # Configuração de serviços utilizados
+ |--- styles/   # Estilos globais
+ |--- App.js    # Arquivo que conterá configurações principais do App
+ |--- index.js  # Ponto de entrada para execução do nosso App
+ |--- routes.js # Arquivo contendo as principais rotas do App
+ ````
+
 - Parte 1: Iniciando com AdonisJS: Autenticação JWT e API REST<br/>
 :. De `Rocketseat BLOG - Airbnb`.<br/> 
 Por Diego Fernandes : https://blog.rocketseat.com.br/adonis-auth-jwt-api-rest/
