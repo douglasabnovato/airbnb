@@ -101,6 +101,18 @@ c. address (Endereço completo)<br/>
 d. price (Preço da diária)<br/>
 e. latitude<br/>
 f. longitude<br/>
+g. configuramos nossas tabelas no banco de dados com prompts de comando<br/>
+h. relação que pode ser “1-N”, “1-1”, “N-N” ou até relacionamentos polimórficos ou mais avançados<br/>
+i. Rotas e controllers
+. index: Listar todos registros;
+. show: Exibir um registro;
+. store: Criar novo registro;
+. update: Alterar um registro;
+. destroy: Remover um registro;
+j. A única coisa que você precisa fazer é se autenticar com um usuário<br/>
+k. copiar o token JWT <br/>
+l. colar na seção environment do Insomnia<br/>
+m. Criando CRUD<br/>
 
 - Parte 3: Upload de imagens e geolocalização no AdonisJS;
 - Parte 4: Iniciando com React Native: Navegação e Autenticação com JWT;
