@@ -1,9 +1,6 @@
 'use strict'
 
-/** @type {import('@adonisjs/framework/src/Env')} */
 const Env = use('Env')
-
-/** @type {import('@adonisjs/ignitor/src/Helpers')} */
 const Helpers = use('Helpers')
 
 module.exports = {
@@ -23,7 +20,7 @@ module.exports = {
   | Sqlite
   |--------------------------------------------------------------------------
   |
-  | Sqlite is a flat file database and can be a good choice for a development
+  | Sqlite is a flat file database and can be good choice under development
   | environment.
   |
   | npm i --save sqlite3

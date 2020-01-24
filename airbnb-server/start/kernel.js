@@ -1,6 +1,5 @@
 'use strict'
 
-/** @type {import('@adonisjs/framework/src/Server')} */
 const Server = use('Server')
 
 /*
@@ -13,8 +12,7 @@ const Server = use('Server')
 |
 */
 const globalMiddleware = [
-  'Adonis/Middleware/BodyParser',
-  'App/Middleware/ConvertEmptyStringsToNull'
+  'Adonis/Middleware/BodyParser'
 ]
 
 /*
@@ -35,8 +33,7 @@ const globalMiddleware = [
 |
 */
 const namedMiddleware = {
-  auth: 'Adonis/Middleware/Auth',
-  guest: 'Adonis/Middleware/AllowGuestOnly'
+  auth: 'Adonis/Middleware/Auth'
 }
 
 /*
@@ -44,13 +41,13 @@ const namedMiddleware = {
 | Server Middleware
 |--------------------------------------------------------------------------
 |
-| Server level middleware are executed even when route for a given URL is
+| Server levl middleware are executed even when route for a given URL is
 | not registered. Features like `static assets` and `cors` needs better
 | control over request lifecycle.
 |
 */
 const serverMiddleware = [
-  // 'Adonis/Middleware/Static',
+  'Adonis/Middleware/Static',
   'Adonis/Middleware/Cors'
 ]
 
