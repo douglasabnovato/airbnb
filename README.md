@@ -3,7 +3,7 @@
 ### Criação: 31 de maio de 2019
 ### Atualização: 23 de janeiro de 2020 - 12:46
 ### Terminado: Não
-### Publicado: https://douglasabnovato.github.io
+### Publicado: Não
 ### Prática : @douglasabnovato
 
 ## Desafio do projeto `Clone AirBnB com AdonisJS, React Native e ReactJS`
@@ -61,14 +61,15 @@ src/
 - Parte 1: Iniciando com AdonisJS: Autenticação JWT e API REST<br/>
 :. De `Rocketseat BLOG - Airbnb`.<br/> 
 Por Diego Fernandes : https://blog.rocketseat.com.br/adonis-auth-jwt-api-rest/
-1. AdonisJS<br/> 
+1. criar nossa API REST com o AdonisJS<br/> 
+- permitir focar na regra de negócio da nossa aplicação sem perder muito tempo com o funcionamento por trás de funcionalidades comuns como manipulação do banco de dados, envio de e-mail, autenticação, etc
 a. npm i -g @adonisjs/cli<br/> 
 b. adonis new airbnb-server --api-only<br/> 
-c. adonis serve --dev<br/> 
+c. rodar o servidor : `adonis serve --dev`<br/> 
 2. Criando API REST com AdonisJS<br/> 
-d. PostgreSQL<br/> 
-e. npm install pg<br/> 
-f. arquivo .env<br/> 
+d. PostgreSQL : `npm install pg`<br/> 
+e. arquivo .env<br/> 
+f. banco de dados sqlite : `npm install sqlite3 --save`
 g. adonis migration:run<br/> 
 3. Autenticação com JWT<br/> 
 h. controller de usuários : adonis make:controller User --type http<br/> 
