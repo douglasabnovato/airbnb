@@ -1,7 +1,7 @@
 ## Airbnb
 
 ### Criação: 31 de maio de 2019
-### Atualização: 23 de janeiro de 2020 - 22:26
+### Atualização: 24 de janeiro de 2020 - 10:26
 ### Terminado: Não
 ### Publicado: Não
 ### Prática : @douglasabnovato
@@ -60,7 +60,12 @@ src/
 
 - Parte 1: Iniciando com AdonisJS: Autenticação JWT e API REST<br/>
 :. De `Rocketseat BLOG - Airbnb`.<br/> 
-Por Diego Fernandes : https://blog.rocketseat.com.br/adonis-auth-jwt-api-rest/
+Por Diego Fernandes : https://blog.rocketseat.com.br/adonis-auth-jwt-api-rest/<br/>
+Criaremos:
+- Autenticação via JWT
+- Cadastro de imóveis para aluguel
+- Mapa com imóveis próximos (utilizando GPS)
+- Upload de fotos dos imóveis (utilizando a câmera no mobile)
 1. criar nossa API REST com o AdonisJS<br/> 
 - permitir focar na regra de negócio da nossa aplicação sem perder muito tempo com o funcionamento por trás de funcionalidades comuns como manipulação do banco de dados, envio de e-mail, autenticação, etc
 a. npm i -g @adonisjs/cli<br/> 
@@ -80,7 +85,23 @@ l. Insomnia - é um cliente para testar API’s REST.<br/>
 m. insomnia - criarmos o primeiro usuário - CADASTRO<br/>
 n. insomnia - acesso ao token JWT, que servirá para validarmos se o usuário está autenticado ou não em nosso app - CADASTRAR<br/>
 
-- Parte 2: Criando CRUD e relações em API REST no AdonisJS;
+- Parte 2: Criando CRUD e relações em API REST no AdonisJS<br/>
+Criaremos:
+- Listagem de imóveis;
+- Exibição de um único imóvel com imagens;
+- Remoção de imóveis;
+- Relacionamento entre usuários e imóveis (um para muitos);
+- Relacionamento entre imóveis e imagens (um para muitas);
+- utilizando API REST
+1. `adonis make:model Property -m -c` : criar todos os arquivos relacionados à manipulação de imóveis
+2. adicionar os campos à tabela de imóveisalterando nossa migration
+a. user_id (Referência ao usuário que criou o imóvel)<br/>
+b. title (Título do imóvel)<br/>
+c. address (Endereço completo)<br/>
+d. price (Preço da diária)<br/>
+e. latitude<br/>
+f. longitude<br/>
+
 - Parte 3: Upload de imagens e geolocalização no AdonisJS;
 - Parte 4: Iniciando com React Native: Navegação e Autenticação com JWT;
 - Parte 5: Instalando o Mapbox e listando imóveis no React Native;
