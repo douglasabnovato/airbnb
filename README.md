@@ -70,12 +70,15 @@ c. rodar o servidor : `adonis serve --dev`<br/>
 d. PostgreSQL : `npm install pg`<br/> 
 e. arquivo .env<br/> 
 f. banco de dados sqlite : `npm install sqlite3 --save`
-g. adonis migration:run<br/> 
+g. `adonis migration:run`<br/> 
+h. rodar o servidor : `adonis serve --dev`<br/>
 3. Autenticação com JWT<br/> 
-h. controller de usuários : adonis make:controller User --type http<br/> 
-i. criado arquivo app/Controllers/Http/UserController.js<br/> 
-j. configurado routes<br/>
-k. testar : insomnia : cliente para testar API’s REST : erro<br/>
+i. controller de usuários : adonis make:controller User --type http<br/> 
+j. criado arquivo app/Controllers/Http/UserController.js<br/> 
+k. configurado routes<br/>
+l. Insomnia - é um cliente para testar API’s REST.<br/>
+m. insomnia - criarmos o primeiro usuário - CADASTRO<br/>
+n. insomnia - acesso ao token JWT, que servirá para validarmos se o usuário está autenticado ou não em nosso app - CADASTRAR<br/>
 
 - Parte 2: Criando CRUD e relações em API REST no AdonisJS;
 - Parte 3: Upload de imagens e geolocalização no AdonisJS;
