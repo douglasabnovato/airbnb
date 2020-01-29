@@ -20,10 +20,6 @@ class User extends Model {
       }
     })
   }
-
-  properties () {
-    return this.hasMany('App/Models/Property')
-  }
   
   /**
    * A relationship on tokens is required for auth to
@@ -37,6 +33,10 @@ class User extends Model {
    */
   tokens () {
     return this.hasMany('App/Models/Token')
+  }
+
+  properties () {
+    return this.hasMany('App/Models/Property')
   }
 
 }

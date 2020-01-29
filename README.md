@@ -1,7 +1,7 @@
 ## Airbnb
 
 ### Criação: 31 de maio de 2019
-### Atualização: 24 de janeiro de 2020 - 10:26
+### Atualização: 29 de janeiro de 2020 - 17:09
 ### Terminado: Não
 ### Publicado: Não
 ### Prática : @douglasabnovato
@@ -112,9 +112,12 @@ i. Rotas e controllers
 j. A única coisa que você precisa fazer é se autenticar com um usuário<br/>
 k. copiar o token JWT <br/>
 l. colar na seção environment do Insomnia<br/>
-m. Criando CRUD<br/>
+m. operações básicas em um model - CRUD - Create, Read, Update, Detele <br/>
 
 - Parte 3: Upload de imagens e geolocalização no AdonisJS;
+1. Criação/edição de imóveis com upload
+2. Busca por distância através de GPS
+
 - Parte 4: Iniciando com React Native: Navegação e Autenticação com JWT;
 - Parte 5: Instalando o Mapbox e listando imóveis no React Native;
 - Parte 6: Instalando a Câmera e realizando o cadastro de Imóveis;
