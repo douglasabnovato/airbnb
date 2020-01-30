@@ -65,7 +65,7 @@ Criaremos:
 - utilizando API REST
 
 1. Criando models e migrations : `adonis make:model Property -m -c` 
- 
+
 2. adicionar os campos à tabela de imóveis alterando nossa migration
 a. user_id (Referência ao usuário que criou o imóvel)<br/>
 b. title (Título do imóvel)<br/>
@@ -79,16 +79,16 @@ h. relacionamento “1-N” : `adonis make:model Image -m`<br/>
 3. Relacionamentos no AdonisJS
 a. imóvel sempre pertence a um usuário 
 
-4. Rotas e controllers
-. index: Listar todos registros;
-. show: Exibir um registro;
-. store: Criar novo registro;
-. update: Alterar um registro;
-. destroy: Remover um registro;
-j. A única coisa que você precisa fazer é se autenticar com um usuário<br/>
-k. copiar o token JWT <br/>
-l. colar na seção environment do Insomnia<br/>
-m. operações básicas em um model - CRUD - Create, Read, Update, Detele <br/
+4. controller de imóvel
+. index: Listar todos registros<br/>
+. show: Exibir um registro<br/>
+. store: Criar novo registro<br/>
+. update: Alterar um registro<br/>
+. destroy: Remover um registro<br/>
+
+5. Configurar o Insomnia<br/>
+
+6. criar o CRUD - Create, Read, Update, Detele <br/>
 
 - Parte 3: Upload de imagens e geolocalização no AdonisJS;
 1. Criação/edição de imóveis com upload
