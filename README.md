@@ -90,6 +90,7 @@ a. imóvel sempre pertence a um usuário
 
 6. criar o CRUD - Create, Read, Update, Detele <br/>
 
+
 - Parte 3: Upload de imagens e geolocalização no AdonisJS;
 1. Criação/edição de imóveis com upload
 2. Busca por distância através de GPS
