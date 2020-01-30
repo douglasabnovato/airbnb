@@ -31,10 +31,10 @@
 #### Projeto em `Um Clone AirBnB com AdonisJS, React Native e ReactJS`
 - Parte 1: Iniciando com AdonisJS: Autenticação JWT e API REST<br/>
 Criaremos:
-- Autenticação via JWT
-- Cadastro de imóveis para aluguel
-- Mapa com imóveis próximos (utilizando GPS)
-- Upload de fotos dos imóveis (utilizando a câmera no mobile)
+. Autenticação via JWT<br/>
+. Cadastro de imóveis para aluguel<br/>
+. Mapa com imóveis próximos (utilizando GPS)<br/>
+. Upload de fotos dos imóveis (utilizando a câmera no mobile)<br/>
 
 1. iniciar o AdonisJS<br/> 
 a. instalar o CLI  `npm i -g @adonisjs/cli`<br/> 
@@ -57,12 +57,12 @@ l. insomnia : Cadastrar (novo users) e Entrar (nova session)<br/>
 
 - Parte 2: Criando CRUD e relações em API REST no AdonisJS<br/>
 Criaremos:
-- Listagem de imóveis;
-- Exibição de um único imóvel com imagens;
-- Remoção de imóveis;
-- Relacionamento entre usuários e imóveis (um para muitos);
-- Relacionamento entre imóveis e imagens (um para muitas);
-- utilizando API REST
+. Listagem de imóveis;<br/>
+. Exibição de um único imóvel com imagens;<br/>
+. Remoção de imóveis;<br/>
+. Relacionamento entre usuários e imóveis (um para muitos);<br/>
+. Relacionamento entre imóveis e imagens (um para muitas);<br/>
+. utilizando API REST<br/>
 
 1. Criando models e migrations : `adonis make:model Property -m -c` 
 
