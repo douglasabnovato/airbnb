@@ -81,6 +81,7 @@ class PropertyController {
   
     await property.delete()
   }
+  
 }
 
 module.exports = PropertyController
