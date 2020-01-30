@@ -63,17 +63,23 @@ Criaremos:
 - Relacionamento entre usuários e imóveis (um para muitos);
 - Relacionamento entre imóveis e imagens (um para muitas);
 - utilizando API REST
-1. `adonis make:model Property -m -c` : criar todos os arquivos relacionados à manipulação de imóveis
-2. adicionar os campos à tabela de imóveisalterando nossa migration
+
+1. Criando models e migrations : `adonis make:model Property -m -c` 
+ 
+2. adicionar os campos à tabela de imóveis alterando nossa migration
 a. user_id (Referência ao usuário que criou o imóvel)<br/>
 b. title (Título do imóvel)<br/>
 c. address (Endereço completo)<br/>
 d. price (Preço da diária)<br/>
 e. latitude<br/>
 f. longitude<br/>
-g. configuramos nossas tabelas no banco de dados com prompts de comando<br/>
-h. relação que pode ser “1-N”, “1-1”, “N-N” ou até relacionamentos polimórficos ou mais avançados<br/>
-i. Rotas e controllers
+g. configuramos nossas tabelas no bd : `adonis migration:run`<br/>
+h. relacionamento “1-N” : `adonis make:model Image -m`<br/>
+
+3. Relacionamentos no AdonisJS
+a. imóvel sempre pertence a um usuário 
+
+4. Rotas e controllers
 . index: Listar todos registros;
 . show: Exibir um registro;
 . store: Criar novo registro;
