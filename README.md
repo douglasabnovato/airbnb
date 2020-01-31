@@ -100,6 +100,12 @@ b. Criação/edição de imóveis<br/>
 c. Upload de imagens no AdonisJS<br/>
 
 - Parte 4: Iniciando com React Native: Navegação e Autenticação com JWT;
+. instalar o CLI : npm i -g react-native-cli<br/>
+. criar um novo projeto para aplicação React Native : react-native init AirBnbApp<br/>
+. Instale o Chocolatey<br/>
+. Configurando SDK<br/>
+. Configurando Emulador<br/>
+
 - Parte 5: Instalando o Mapbox e listando imóveis no React Native;
 - Parte 6: Instalando a Câmera e realizando o cadastro de Imóveis;
 - Parte 7: Listando em um Modal os dados detalhados dos Imóveis;
