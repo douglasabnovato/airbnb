@@ -90,10 +90,12 @@ a. imóvel sempre pertence a um usuário
 
 6. criar o CRUD - Create, Read, Update, Detele <br/>
 
-
-- Parte 3: Upload de imagens e geolocalização no AdonisJS;
-1. Criação/edição de imóveis com upload
-2. Busca por distância através de GPS
+- Parte 3: Upload de imagens e geolocalização no AdonisJS
+. Geolocalização<br/>
+. Query Scope<br/>
+. Camel Case  <br/>
+. Haversine - cálculo naval de distância<br/>
+. Configurando controller<br/>
 
 - Parte 4: Iniciando com React Native: Navegação e Autenticação com JWT;
 - Parte 5: Instalando o Mapbox e listando imóveis no React Native;

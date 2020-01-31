@@ -19,10 +19,16 @@ class PropertyController {
    * @param {Response} ctx.response
    * @param {View} ctx.view
    */
-  async index () {
-    const properties = Property.all()
+  async index ({ request }) {
+    
+    const { latitude, longitude } = request.all()
+
+    const properties = Property.query()
+      .nearBy(latitude, longitude, 10)
+      .fetch()
   
     return properties
+
   }
 
   /**
