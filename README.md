@@ -95,7 +95,9 @@ a. imóvel sempre pertence a um usuário
 . Query Scope<br/>
 . Camel Case  <br/>
 . Haversine - cálculo naval de distância<br/>
-. Configurando controller<br/>
+a. Configurando controller<br/>
+b. Criação/edição de imóveis<br/>
+c. Upload de imagens no AdonisJS<br/>
 
 - Parte 4: Iniciando com React Native: Navegação e Autenticação com JWT;
 - Parte 5: Instalando o Mapbox e listando imóveis no React Native;
