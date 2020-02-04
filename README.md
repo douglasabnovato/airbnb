@@ -1,7 +1,7 @@
 ## Airbnb
 
 ### Criação: 31 de maio de 2019
-### Atualização: 29 de janeiro de 2020 - 17:09
+### Atualização: 04 de fevereiro de 2020
 ### Terminado: Não
 ### Publicado: Não
 ### Prática : @douglasabnovato
