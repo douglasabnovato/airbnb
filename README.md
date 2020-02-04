@@ -35,20 +35,17 @@ Criaremos:
 . Cadastro de imóveis para aluguel<br/>
 . Mapa com imóveis próximos (utilizando GPS)<br/>
 . Upload de fotos dos imóveis (utilizando a câmera no mobile)<br/>
-
 1. iniciar o AdonisJS<br/> 
 a. instalar o CLI  `npm i -g @adonisjs/cli`<br/> 
 b. adonis new airbnb-server --api-only<br/> 
 c. rodar o servidor : `adonis serve --dev`<br/> 
 d. acessar : `http://localhost:3333`<br/>
-
 2. Criando API REST com AdonisJS<br/> 
 d. PostgreSQL : `npm install pg`<br/> 
 e. arquivo .env<br/> 
 f. banco de dados sqlite : `npm install sqlite3 --save`
 g. executar as migrations do nosso projeto em nossa nova base de dados : `adonis migration:run`<br/> 
 h. rodar o servidor : `adonis serve --dev`<br/>
-
 3. Autenticação com JWT<br/> 
 i. criado arquivo app/Controllers/Http/UserController.js : `adonis make:controller User --type http`<br/> 
 j. criado arquivo app/Controllers/Http/SessionController.js : `adonis make:controller Session --type http`<br/> 
@@ -63,9 +60,7 @@ Criaremos:
 . Relacionamento entre usuários e imóveis (um para muitos);<br/>
 . Relacionamento entre imóveis e imagens (um para muitas);<br/>
 . utilizando API REST<br/>
-
 1. Criando models e migrations : `adonis make:model Property -m -c` 
-
 2. adicionar os campos à tabela de imóveis alterando nossa migration
 a. user_id (Referência ao usuário que criou o imóvel)<br/>
 b. title (Título do imóvel)<br/>
@@ -75,19 +70,15 @@ e. latitude<br/>
 f. longitude<br/>
 g. configuramos nossas tabelas no bd : `adonis migration:run`<br/>
 h. relacionamento “1-N” : `adonis make:model Image -m`<br/>
-
 3. Relacionamentos no AdonisJS
 a. imóvel sempre pertence a um usuário 
-
 4. controller de imóvel
 . index: Listar todos registros<br/>
 . show: Exibir um registro<br/>
 . store: Criar novo registro<br/>
 . update: Alterar um registro<br/>
 . destroy: Remover um registro<br/>
-
 5. Configurar o Insomnia<br/>
-
 6. criar o CRUD - Create, Read, Update, Detele <br/>
 
 - Parte 3: Upload de imagens e geolocalização no AdonisJS
@@ -105,8 +96,14 @@ c. Upload de imagens no AdonisJS<br/>
 . Instale o Chocolatey<br/>
 . Configurando SDK<br/>
 . Configurando Emulador<br/>
+a. Criando a configuração do Axios (HTTP Client)<br/>
+b. próximos : Login, Cadastro e Principal (Mapa)<br/>
 
 - Parte 5: Instalando o Mapbox e listando imóveis no React Native;
+a. instalar RocketMap : `react-native init RocketMap`<br/>
+b. instalar MapBox : `npm install @mapbox/react-native-mapbox-gl`<br/>
+
+
 - Parte 6: Instalando a Câmera e realizando o cadastro de Imóveis;
 - Parte 7: Listando em um Modal os dados detalhados dos Imóveis;
 - Parte 8: Iniciando com ReactJS: Navegação e Autenticação com JWT;
